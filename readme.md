@@ -11,5 +11,5 @@
 </p>
 
 <p align="center">
-    <a href="https://inlinedb.github.io"><img src="https://img.shields.io/travis/inlinedb/inlinedb-web.svg?label=deployment"></a>
+    <a href="https://travis-ci.org/inlinedb/inlinedb-web"><img src="https://img.shields.io/travis/inlinedb/inlinedb-web.svg?label=deployment"></a>
 </p>
