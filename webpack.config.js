@@ -42,6 +42,10 @@ module.exports = env => {
       hot: true
     };
 
+  } else {
+
+    config.plugins.push(new Webpack.optimize.UglifyJsPlugin());
+
   }
 
   return config;
