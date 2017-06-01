@@ -5,6 +5,11 @@
   "repository": "inlinedb/inlinedb-web",
   "author": "Gopikrishna Sathyamurthy",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "eslint": "eslint . --ignore-path .gitignore",
+    "start": "webpack-dev-server --env.dev"
+  },
   "devDependencies": {
     "babel-core": "6.24.1",
     "babel-loader": "7.0.0",
