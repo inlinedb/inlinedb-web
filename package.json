@@ -1,0 +1,8 @@
+{
+  "name": "inlinedb-web",
+  "private": true,
+  "description": "Web content generator for inlinedb.github.io",
+  "repository": "inlinedb/inlinedb-web",
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "MIT"
+}
