@@ -10,6 +10,6 @@ deploy:
   local_dir: dist
   repo: inlinedb/inlinedb.github.io
   skip_cleanup: true
-  target_branch: gh-pages
+  target_branch: master
   on:
     branch: master
