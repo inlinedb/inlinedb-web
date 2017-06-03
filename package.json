@@ -11,8 +11,6 @@
     "start": "webpack-dev-server --env.dev"
   },
   "devDependencies": {
-    "babel-core": "6.24.1",
-    "babel-loader": "7.0.0",
     "css-loader": "0.28.4",
     "eslint": "3.19.0",
     "extract-text-webpack-plugin": "2.1.0",
