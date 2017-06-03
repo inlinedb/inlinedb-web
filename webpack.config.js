@@ -15,18 +15,14 @@ module.exports = env => {
       rules: [
         {
           exclude: /node_modules/,
-          loaders: [
-            'babel-loader?sourceMap'
-          ],
-          test: /\.js$/
+          loaders: ['html-loader'],
+          test: /\.html$/
         },
         {
           loaders: [
             {
               loader: 'docs-loader',
-              options: {
-                basePath
-              }
+              options: {basePath}
             }
           ],
           test: /\.md$/
