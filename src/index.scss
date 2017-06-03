@@ -1,4 +1,12 @@
 @import '~prismjs/themes/prism-okaidia';
+@import 'components/intro';
+@import 'components/navigation';
+
+$red: #c80005;
+
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -10,9 +18,29 @@ body {
   background: #e2e1e0;
 }
 
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $red;
+}
+
+main#content {
+  width: 95%;
+  max-width: 900px;
+  margin: auto;
+}
+
 pre {
   padding: 10px;
   border-radius: 2px;
   background-color: #333;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
+@include intro;
+@include navigation;
