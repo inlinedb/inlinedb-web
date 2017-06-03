@@ -24,7 +24,7 @@
     "webpack-dev-server": "2.4.5"
   },
   "dependencies": {
-    "docs-loader": "github:inlinedb/docs-loader#master",
-    "inlinedb-docs": "github:inlinedb/inlinedb-docs#master"
+    "docs-loader": "github:inlinedb/docs-loader#4d8715f99b29663345d2f8567f61269c9fb167ee",
+    "inlinedb-docs": "github:inlinedb/inlinedb-docs#899e4399903fdcfb62726875697db3ffe6f63c0d"
   }
 }
