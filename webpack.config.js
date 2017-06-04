@@ -62,9 +62,15 @@ module.exports = env => {
       hot: true
     };
 
-  } else {
+    /*
 
-    config.plugins.push(new Webpack.optimize.UglifyJsPlugin());
+     } else {
+
+     config.plugins.push(new Webpack.optimize.UglifyJsPlugin());
+
+     doesn't support es6
+
+     */
 
   }
 
