@@ -52,5 +52,9 @@
       float: right;
       margin-top: $gutter;
     }
+
+    p + p {
+      margin-top: $gutter;
+    }
   }
 }
