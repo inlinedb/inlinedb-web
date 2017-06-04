@@ -1,3 +1,4 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Webpack = require('webpack');
@@ -46,7 +47,15 @@ module.exports = env => {
         inject: 'body',
         template: './src/index.html'
       }),
-      new ExtractTextPlugin('index.css')
+      new ExtractTextPlugin('index.css'),
+      new CopyWebpackPlugin([
+        {from: './.gitignore'},
+        {from: './license.md'},
+        {
+          from: './src/readme-io.md',
+          to: 'readme.md'
+        }
+      ])
     ]
   };
 
