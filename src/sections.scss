@@ -18,9 +18,16 @@
       padding-top: $header-height;
     }
 
-    li a{
+    li a {
       text-decoration: underline;
       line-height: 1.5em;
+    }
+
+    table, td, th {
+      margin-top: 35px;
+      border: 1px solid darken($background, 10);
+      padding: 10px;
+      border-collapse: collapse;
     }
   }
 }
