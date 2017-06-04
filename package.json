@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "docs-loader": "github:inlinedb/docs-loader#31a672ac6f554333675c850a29e7977abb02bae9",
-    "inlinedb-docs": "github:inlinedb/inlinedb-docs#8b4c678afd42f088b863881066baf9fcc8abd36e"
+    "inlinedb-docs": "github:inlinedb/inlinedb-docs#0054b04e7f6691894a39d54bdcc1016dcd25a2c1"
   }
 }
