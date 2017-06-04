@@ -24,10 +24,14 @@
     }
 
     table, td, th {
-      margin-top: 35px;
+      margin-bottom: 25px;
       border: 1px solid darken($background, 10);
       padding: 10px;
       border-collapse: collapse;
+    }
+
+    pre {
+      margin-bottom: 35px;
     }
   }
 }
