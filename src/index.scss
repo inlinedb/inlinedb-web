@@ -3,9 +3,10 @@
 @import 'components/navigation';
 @import 'sections';
 
-$red: #c80005;
 $background: #e2e1e0;
+$gutter: 25px;
 $header-height: 70px;
+$red: #c80005;
 
 @mixin center-it {
   width: 95%;

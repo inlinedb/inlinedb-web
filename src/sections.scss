@@ -9,12 +9,12 @@
 
     h1 {
       border-bottom: 1px solid darken($background, 5);
-      margin-bottom: 15px;
+      margin-bottom: $gutter;
     }
 
     h2 {
       font-size: 1.35em;
-      margin-bottom: 25px;
+      margin-bottom: $gutter;
       padding-top: $header-height;
     }
 
@@ -24,14 +24,19 @@
     }
 
     table, td, th {
-      margin-bottom: 25px;
+      margin-bottom: $gutter;
       border: 1px solid darken($background, 10);
       padding: 10px;
       border-collapse: collapse;
     }
 
     pre {
-      margin-bottom: 25px;
+      margin-bottom: $gutter;
+    }
+
+    .link-to-top {
+      float: right;
+      margin-top: $gutter;
     }
   }
 }
