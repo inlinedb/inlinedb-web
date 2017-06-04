@@ -3,6 +3,14 @@
 @import 'components/navigation';
 
 $red: #c80005;
+$background: #e2e1e0;
+$header-height: 70px;
+
+@mixin center-it {
+  width: 95%;
+  max-width: 900px;
+  margin: auto;
+}
 
 * {
   box-sizing: border-box;
@@ -10,12 +18,12 @@ $red: #c80005;
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  background: $background;
   font-family: sans-serif;
   font-size: 100%;
-  background: #e2e1e0;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 a,
@@ -30,9 +38,7 @@ a:hover {
 }
 
 main#content {
-  width: 95%;
-  max-width: 900px;
-  margin: auto;
+  @include center-it;
 }
 
 pre {

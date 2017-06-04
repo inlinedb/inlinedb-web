@@ -1,5 +1,17 @@
 @mixin navigation {
   nav {
+    @include center-it;
     padding: 25px 0;
+    position: fixed;
+    background-color: rgba($background, .9);
+
+    a {
+      padding: 10px;
+      border-bottom: 3px solid transparent;
+
+      &:hover {
+        border-bottom-color: $red;
+      }
+    }
   }
 }
