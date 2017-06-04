@@ -18,9 +18,25 @@
       padding-top: $header-height;
     }
 
+    h4 {
+      margin-top: $gutter;
+      margin-bottom: 10px;
+    }
+
     li a {
       text-decoration: underline;
-      line-height: 1.5em;
+    }
+
+    ul {
+      margin: 10px 0;
+
+      li {
+        line-height: 1.5em;
+      }
+
+      ul {
+        margin: 0;
+      }
     }
 
     table, td, th {
