@@ -2,9 +2,25 @@
   .docs-section {
     padding-top: $header-height;
 
-    h1, h2, h3 {
+    h1, h2, h3, p {
       margin: 0;
       padding: 0;
+    }
+
+    h1 {
+      border-bottom: 1px solid darken($background, 5);
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 1.35em;
+      margin-bottom: 15px;
+      padding-top: $header-height;
+    }
+
+    li a{
+      text-decoration: underline;
+      line-height: 1.5em;
     }
   }
 }
