@@ -1,6 +1,6 @@
 @mixin sections {
   .docs-section {
-    padding-top: $header-height;
+    padding-top: $nav-height;
 
     h1, h2, h3, p {
       margin: 0;
@@ -15,7 +15,7 @@
     h2 {
       font-size: 1.35em;
       margin-bottom: $gutter;
-      padding-top: $header-height;
+      padding-top: $nav-height;
     }
 
     h4 {
