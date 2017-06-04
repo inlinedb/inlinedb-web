@@ -1,0 +1,53 @@
+@mixin footer {
+  footer {
+    align-items: flex-start;
+    box-shadow: 0 9px 6px -6px rgba(0, 0, 0, 0.16) inset, 0 9px 6px -6px rgba(0, 0, 0, 0.23) inset;
+    display: flex;
+    justify-content: space-between;
+    margin: $nav-height 0;
+    padding: 25px;
+
+    .logo {
+      align-items: center;
+      display: flex;
+      flex-grow: 1;
+
+      img {
+        height: 48px;
+        width: 48px;
+      }
+
+      h3 {
+        margin: 0 0 0 10px;
+      }
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 2;
+
+      a {
+        display: list-item;
+      }
+    }
+
+    .info {
+      flex-grow: 1;
+
+      .author {
+        margin-bottom: 10px;
+      }
+
+      .links a {
+        display: inline-block;
+        margin: 0 5px 10px;
+      }
+
+      .author,
+      .links {
+        text-align: right;
+      }
+    }
+  }
+}
