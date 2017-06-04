@@ -1,6 +1,7 @@
 @import '~prismjs/themes/prism-okaidia';
 @import 'components/intro';
 @import 'components/navigation';
+@import 'sections';
 
 $red: #c80005;
 $background: #e2e1e0;
@@ -50,3 +51,4 @@ pre {
 
 @include intro;
 @include navigation;
+@include sections;

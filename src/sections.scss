@@ -1,0 +1,10 @@
+@mixin sections {
+  .docs-section {
+    padding-top: $header-height;
+
+    h1, h2, h3 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
