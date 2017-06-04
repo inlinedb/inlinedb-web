@@ -1,5 +1,6 @@
 @mixin sections {
   .docs-section {
+    overflow: auto;
     padding-top: $nav-height;
 
     h1, h2, h3, p {
@@ -30,10 +31,6 @@
     ul {
       margin: 10px 0;
 
-      li {
-        line-height: 1.5em;
-      }
-
       ul {
         margin: 0;
       }
@@ -53,10 +50,6 @@
     .link-to-top {
       float: right;
       margin-top: $gutter;
-    }
-
-    > p {
-      line-height: 1.5em;
     }
   }
 }
