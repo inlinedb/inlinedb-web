@@ -1,5 +1,5 @@
 @mixin navigation {
-  nav {
+  nav.main {
     @include center-it;
     padding: 25px 0;
     position: fixed;
