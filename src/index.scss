@@ -1,5 +1,5 @@
 @import '~prismjs/themes/prism-okaidia';
-@import 'components/intro';
+@import 'components/header';
 @import 'components/navigation';
 @import 'sections';
 
@@ -50,6 +50,6 @@ pre {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-@include intro;
+@include header;
 @include navigation;
 @include sections;
