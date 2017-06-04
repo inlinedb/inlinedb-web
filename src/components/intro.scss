@@ -13,8 +13,17 @@
 
     article {
       font-size: 1.25em;
+      line-height: 1.5em;
       margin-bottom: 50px;
-      text-align: center;
+      text-align: justify;
+
+      a {
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 }
