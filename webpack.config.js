@@ -51,6 +51,7 @@ module.exports = env => {
       new CopyWebpackPlugin([
         {from: './.gitignore'},
         {from: './license.md'},
+        {from: './src/favicon.ico'},
         {
           from: './src/readme-io.md',
           to: 'readme.md'
