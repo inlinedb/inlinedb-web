@@ -55,6 +55,10 @@ module.exports = env => {
         {
           from: './src/readme-io.md',
           to: 'readme.md'
+        },
+        {
+          from: './src/google.html',
+          to: 'googlecd046b12c3254999.html'
         }
       ])
     ]
