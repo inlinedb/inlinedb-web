@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const Webpack = require('webpack');
 const path = require('path');
 
-const basePath = path.dirname(require.resolve('inlinedb-docs/readme.md'));
+const basePath = path.dirname(require.resolve('@inlinedb/docs/readme.md'));
 
 module.exports = env => {
 
@@ -22,7 +22,7 @@ module.exports = env => {
         {
           loaders: [
             {
-              loader: 'docs-loader',
+              loader: '@inlinedb/docs-loader',
               options: {basePath}
             }
           ],
